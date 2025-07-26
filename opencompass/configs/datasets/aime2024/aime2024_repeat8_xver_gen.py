@@ -95,5 +95,5 @@ aime2024_datasets = [
         eval_cfg=aime2024_eval_cfg,
         mode='singlescore',
     )
-    for idx in range(4)
+    for idx in range(8)
 ]
