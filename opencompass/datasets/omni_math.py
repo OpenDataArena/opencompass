@@ -43,7 +43,7 @@ class OmniMathEvaluator(BaseEvaluator):
                     max_seq_len=8192,
                 )) for url in url
         ]
-        self.tokenizer = AutoTokenizer.from_pretrained('/mnt/dhwfile/raise/user/caimengzhang/model/Omni-Judge',
+        self.tokenizer = AutoTokenizer.from_pretrained('KbsdJames/Omni-Judge',
                                                        trust_remote_code=True)
 
     def batch_infer(self, models: List[TurboMindAPIModel],

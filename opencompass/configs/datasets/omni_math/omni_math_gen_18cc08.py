@@ -29,7 +29,7 @@ infer_cfg = dict(
 eval_cfg = dict(
     evaluator=dict(
         type=OmniMathEvaluator,
-        url=['http://10.140.24.11:8002','http://10.140.24.11:8003']
+        url=[''] #your server url
     )
 )
 
